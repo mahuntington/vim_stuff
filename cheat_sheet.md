@@ -29,3 +29,8 @@
 - `<ctrl-y>,` - emmet
 - `<ctrl-]>` - abbreviations
 - `<ctrl-n>` - word completion
+
+## Navigation
+
+- `<ctrl-f>` page down
+- `<ctrl-b>` page up
