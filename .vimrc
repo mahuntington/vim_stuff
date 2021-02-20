@@ -5,6 +5,8 @@ call plug#end()
 
 set tabstop=4 "tab width = 4 spaces
 set shiftwidth=4 "auto tab width = 4 spaces
+set list "show whitespace chars
+set lcs=tab:\|\. "show tabs
 set number "show line nums
 let g:netrw_liststyle = 3 "tree view is default for file explorer
 let g:netrw_banner = 0 "don't show banner in file explorer
