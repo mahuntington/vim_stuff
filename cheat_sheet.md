@@ -25,12 +25,17 @@
 
 ## Auto Complete
 
-- `<ctrl-x><ctrl-o>` - omni completion
-- `<ctrl-y>,` - emmet
-- `<ctrl-]>` - abbreviations
-- `<ctrl-n>` - word completion
+- `<ctrl-x><ctrl-o>` omni completion
+- `<ctrl-y>,` emmet
+- `<ctrl-]>` abbreviations
+- `<ctrl-n>` word completion
 
 ## Navigation
 
 - `<ctrl-f>` page down
 - `<ctrl-b>` page up
+
+## Commands
+
+- `:%s/\s\+$//e` trim ending whitespace
+- `:%retab!` convert spaces to tabs
