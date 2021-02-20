@@ -1,6 +1,7 @@
 call plug#begin('~/.vim/plugged')
 Plug 'mattn/emmet-vim' "emmet html autocomplete
 Plug 'vim-airline/vim-airline' "airline status bar
+Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
 call plug#end()
 
 set tabstop=4 "tab width = 4 spaces
@@ -39,5 +40,3 @@ let g:airline#extensions#tabline#enabled = 1 "show buffers when no tabs open
 "--- unused plugins: ---
 "Plug 'isruslan/vim-es6' "es 6 autocomplete
 "Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' } #youcompleteme
-"Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
-
