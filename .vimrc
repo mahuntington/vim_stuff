@@ -7,7 +7,7 @@ call plug#end()
 set tabstop=4 "tab width = 4 spaces
 set shiftwidth=4 "auto tab width = 4 spaces
 set list "show whitespace chars
-set lcs=tab:\|\. "show tabs as |...
+set lcs=tab:\|\.,eol:¬ "show tabs as |...
 set number "show line nums
 set mouse=a "enable mouse
 set wrap! "disable wordwrap
