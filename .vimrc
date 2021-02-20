@@ -18,6 +18,7 @@ ab log console.log();<left><left> "log autocomplete
 ab af ()=>{<cr><cr>}<up><tab> "arrow function autocomplete
 
 let g:airline#extensions#tabline#enabled = 1 "show buffers when no tabs open
+let g:airline#extensions#tabline#buffer_nr_show = 1 "show buffer numbers
 let NERDTreeShowLineNumbers=1 "show line numbers in nerdtree
 
 "--- unused: ---
