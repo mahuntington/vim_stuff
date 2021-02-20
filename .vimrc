@@ -1,7 +1,8 @@
 call plug#begin('~/.vim/plugged')
 Plug 'mattn/emmet-vim' "emmet html autocomplete
 Plug 'vim-airline/vim-airline' "airline status bar
-Plug 'preservim/nerdtree' "nerd tree file explorer
+Plug 'preservim/nerdtree' "nerdtree file explorer
+Plug 'Xuyuanp/nerdtree-git-plugin' "show git status in nerdtree
 call plug#end()
 
 set tabstop=4 "tab width = 4 spaces
