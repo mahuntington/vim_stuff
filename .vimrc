@@ -3,7 +3,7 @@ Plug 'mattn/emmet-vim' "emmet html autocomplete
 Plug 'vim-airline/vim-airline' "airline status bar
 Plug 'preservim/nerdtree' "nerdtree file explorer
 Plug 'Xuyuanp/nerdtree-git-plugin' "show git status in nerdtree
-Plug 'airblade/vim-gitgutter' "show git status in file
+Plug 'mhinz/vim-signify' "show git changes in file
 call plug#end()
 
 set tabstop=4 "tab width = 4 spaces
@@ -46,3 +46,4 @@ let NERDTreeShowLineNumbers=1 "show line numbers in nerdtree
 "Plug 'isruslan/vim-es6' "es 6 autocomplete
 "Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' } #youcompleteme
 "Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
+"Plug 'airblade/vim-gitgutter' "show git status in file
