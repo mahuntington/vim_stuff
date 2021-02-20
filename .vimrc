@@ -43,4 +43,4 @@ let NERDTreeShowLineNumbers=1 "show line numbers in nerdtree
 "--- unused plugins: ---
 "Plug 'isruslan/vim-es6' "es 6 autocomplete
 "Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' } #youcompleteme
-Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
+"Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
