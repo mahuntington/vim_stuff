@@ -1,6 +1,6 @@
 call plug#begin('~/.vim/plugged')
-Plug 'mattn/emmet-vim'
-Plug 'vim-airline/vim-airline'
+Plug 'mattn/emmet-vim' "emmet html autocomplete
+Plug 'vim-airline/vim-airline' "airline status bar
 call plug#end()
 
 set tabstop=4 "tab width = 4 spaces
@@ -14,10 +14,10 @@ set wrap! "disable wordwrap
 
 colorscheme molokai "theme
 
-ab log console.log();<left><left>
-ab af ()=>{<cr><cr>}<up><tab>
+ab log console.log();<left><left> "log autocomplete
+ab af ()=>{<cr><cr>}<up><tab> "arrow function autocomplete
 
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 1 "show buffers when no tabs open
 
 "--- unused: ---
 "let g:user_emmet_expandabbr_key='<Tab>' "use tab to expand in emmet
