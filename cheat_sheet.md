@@ -24,4 +24,7 @@
 
 ## Auto Complete
 
-- `<ctrl-x><ctrl-o>` - standard
+- `<ctrl-x><ctrl-o>` - omni completion
+- `<ctrl-y>,` - emmet
+- `<ctrl-]>` - abbreviations
+- `<ctrl-n>` - word completion
