@@ -3,6 +3,7 @@
 ## Tabs
 
 - `gt` go to next tab
+- `gT` go to next tab
 - `[num]gt` go to tab [num]
 - `:tabnew` open new tab
 - `:tabc` close tab
