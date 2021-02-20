@@ -3,7 +3,7 @@
 ## Tabs
 
 - `gt` go to tab
-- `[num]gt` go to tab #[num]
+- `[num]gt` go to tab [num]
 - `:tabnew` open new tab
 - `:tabc` close tab
 
@@ -17,3 +17,4 @@
 ## Buffers
 
 - `:b [num]` use buffer [num]
+- `:[num]bd` unload buffer [num]
