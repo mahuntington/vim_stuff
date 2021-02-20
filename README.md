@@ -7,13 +7,15 @@
 - `[num]gt` go to tab [num]
 - `:tabnew` open new tab
 - `:tabc` close tab
+- `:tabe` edit file in new tab
 
-## Panes
+## Split
 
-- `sp` split with line running horizontally
-- `vsp` split with line running verticall
-- `ctrl-w`,`arrow` move to pane
+- `<ctrl-w>s` or `:sp` split with line running horizontally
+- `<ctrl-w>v` or `:vsp` split with line running verticall
+- `<ctrl-w>arrow` move to pane
 - `:q` close tab
+- `:tab split` move split to new tab
 
 ## Buffers
 
