@@ -21,3 +21,7 @@
 
 - `:b [num]` use buffer [num]
 - `:[num]bd` unload buffer [num]
+
+## Auto Complete
+
+- `<ctrl-x><ctrl-o>` - standard
