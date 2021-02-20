@@ -19,7 +19,8 @@
 
 ## Buffers
 
-- `:b [num]` use buffer [num]
+- `:b[num]` use buffer [num]
+- `:bn` next buffer
 - `:[num]bd` unload buffer [num]
 
 ## Auto Complete
