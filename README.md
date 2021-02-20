@@ -2,7 +2,7 @@
 
 ## Tabs
 
-- `gt` go to tab
+- `gt` go to next tab
 - `[num]gt` go to tab [num]
 - `:tabnew` open new tab
 - `:tabc` close tab
