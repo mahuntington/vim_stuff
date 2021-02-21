@@ -1,3 +1,4 @@
+"-- install plugins: ---
 call plug#begin('~/.vim/plugged')
 Plug 'mattn/emmet-vim' "emmet html autocomplete
 Plug 'vim-airline/vim-airline' "airline status bar
@@ -6,6 +7,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin' "show git status in nerdtree
 Plug 'mhinz/vim-signify' "show git changes in file
 call plug#end()
 
+"-- vim configs: ---
 set tabstop=4 "tab width = 4 spaces
 set shiftwidth=4 "auto tab width = 4 spaces
 set list "show whitespace chars
@@ -14,14 +16,19 @@ set number "show line nums
 set mouse=a "enable mouse
 set wrap! "disable wordwrap
 
-colorscheme molokai "theme
+"-- abbreviations: ---
+"log autocomplete
+ab log console.log();<left><left>
+"arrow function autocomplete
+ab af ()=>{<cr><cr>}<up><tab>
 
-ab log console.log();<left><left> "log autocomplete
-ab af ()=>{<cr><cr>}<up><tab> "arrow function autocomplete
-
+"-- plugin configs: ---
 let g:airline#extensions#tabline#enabled = 1 "show buffers when no tabs open
 let g:airline#extensions#tabline#buffer_nr_show = 1 "show buffer numbers
 let NERDTreeShowLineNumbers=1 "show line numbers in nerdtree
+
+"-- themes: ---
+colorscheme molokai
 
 "--- unused: ---
 "let g:user_emmet_expandabbr_key='<Tab>' "use tab to expand in emmet
