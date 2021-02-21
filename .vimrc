@@ -1,24 +1,36 @@
 "-- install plugins: ---
 call plug#begin('~/.vim/plugged')
-Plug 'mattn/emmet-vim' "emmet html autocomplete
-Plug 'vim-airline/vim-airline' "airline status bar
-Plug 'preservim/nerdtree' "nerdtree file explorer
-Plug 'Xuyuanp/nerdtree-git-plugin' "show git status in nerdtree
-Plug 'mhinz/vim-signify' "show git changes in file
+"emmet html autocomplete
+Plug 'mattn/emmet-vim'
+"airline status bar
+Plug 'vim-airline/vim-airline'
+"nerdtree file explorer
+Plug 'preservim/nerdtree'
+"show git status in nerdtree
+Plug 'Xuyuanp/nerdtree-git-plugin'
+"show git changes in file
+Plug 'mhinz/vim-signify'
 call plug#end()
 
 "-- vim configs: ---
-set tabstop=4 "tab width = 4 spaces
-set shiftwidth=4 "auto tab width = 4 spaces
+"tab width = 4 spaces
+set tabstop=4
+"auto tab width = 4 spaces
+set shiftwidth=4
 
-set list "show whitespace chars
-set lcs=tab:\|\.,eol:¬ "show tabs as |...
+"show whitespace chars
+set list
+"show tabs as |... and end of line as ¬
+set lcs=tab:\|\.,eol:¬
 
-set number "show line nums
+"show line nums
+set number
 
-set mouse=a "enable mouse
+"enable mouse
+set mouse=a
 
-set wrap! "disable wordwrap
+"disable wordwrap
+set wrap!
 
 "-- abbreviations: ---
 "log autocomplete
@@ -27,10 +39,13 @@ ab log console.log();<left><left>
 ab af ()=>{<cr><cr>}<up><tab>
 
 "-- plugin configs: ---
-let g:airline#extensions#tabline#enabled = 1 "show buffers when no tabs open
-let g:airline#extensions#tabline#buffer_nr_show = 1 "show buffer numbers
+"show buffers when no tabs open
+let g:airline#extensions#tabline#enabled = 1
+"show buffer numbers
+let g:airline#extensions#tabline#buffer_nr_show = 1
 
-let NERDTreeShowLineNumbers=1 "show line numbers in nerdtree
+"show line numbers in nerdtree
+let NERDTreeShowLineNumbers=1
 
 "-- themes: ---
 colorscheme molokai
@@ -41,8 +56,8 @@ colorscheme molokai
 
 "--- unused plugins: ---
 "Plug 'isruslan/vim-es6' "es 6 autocomplete
-"Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' } #youcompleteme
-"Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
+"Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' } "youcompleteme
+"Plug 'bling/vim-bufferline' "bufferline to show buffers in statusline
 "Plug 'airblade/vim-gitgutter' "show git status in file
 
 "--- unused vim configs: ---
