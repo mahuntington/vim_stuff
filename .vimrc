@@ -74,7 +74,7 @@ colorscheme molokai
 
 "--- unused plugin configs: ---
 "let g:user_emmet_expandabbr_key='<Tab>' "use tab to expand in emmet
-"imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>") "only have tab expand in emmet when it's supposed to 
+"imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>") "only have tab expand in emmet when it's supposed to
 
 "show bufferline in statusbar "bufferline
 "let g:bufferline_echo = 0 "bufferline 1 is another option
@@ -88,4 +88,3 @@ colorscheme molokai
 "--- unused themes configs: ---
 "let g:rehash256 = 1 "molokai theme addon
 "let g:molokai_original = 1 "molokai theme addon
-
