@@ -10,10 +10,14 @@ call plug#end()
 "-- vim configs: ---
 set tabstop=4 "tab width = 4 spaces
 set shiftwidth=4 "auto tab width = 4 spaces
+
 set list "show whitespace chars
 set lcs=tab:\|\.,eol:¬ "show tabs as |...
+
 set number "show line nums
+
 set mouse=a "enable mouse
+
 set wrap! "disable wordwrap
 
 "-- abbreviations: ---
@@ -25,32 +29,48 @@ ab af ()=>{<cr><cr>}<up><tab>
 "-- plugin configs: ---
 let g:airline#extensions#tabline#enabled = 1 "show buffers when no tabs open
 let g:airline#extensions#tabline#buffer_nr_show = 1 "show buffer numbers
+
 let NERDTreeShowLineNumbers=1 "show line numbers in nerdtree
 
 "-- themes: ---
 colorscheme molokai
 
-"--- unused: ---
-"let g:user_emmet_expandabbr_key='<Tab>' "use tab to expand in emmet
-"imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>") "only have tab expand in emmet when it's supposed to 
-"colorscheme torte "torte colorscheme
-"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags "omnicomplete html tags
-"syntax on "syntax highlighting
-"let g:rehash256 = 1 "molokai theme addon
-"let g:molokai_original = 1 "molokai theme addon
-"set laststatus=2 "always show status
-"set statusline=%f "show file name in status
-"show bufferline in statusbar
-"let g:bufferline_echo = 0 "1 is another option
-"autocmd VimEnter * "show buffers in status line
-"  \ let &statusline='%{bufferline#refresh_status()}'
-"    \ .bufferline#get_status_string()
-"let g:netrw_liststyle = 3 "tree view is default for file explorer
-"let g:netrw_banner = 0 "don't show banner in file explorer
-"let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro' "show line numbers in file explorer
+"---------------
+"    unused:
+"---------------
 
 "--- unused plugins: ---
 "Plug 'isruslan/vim-es6' "es 6 autocomplete
 "Plug 'Valloric/YouCompleteMe', { 'do': './install.py --tern-completer' } #youcompleteme
 "Plug 'bling/vim-bufferline' #bufferline to show buffers in statusline
 "Plug 'airblade/vim-gitgutter' "show git status in file
+
+"--- unused vim configs: ---
+"syntax on "syntax highlighting
+
+"autocmd FileType html set omnifunc=htmlcomplete#CompleteTags "omnicomplete html tags
+
+"set laststatus=2 "always show status
+"set statusline=%f "show file name in status
+
+"let g:netrw_liststyle = 3 "tree view is default for file explorer
+"let g:netrw_banner = 0 "don't show banner in file explorer
+"let g:netrw_bufsettings = 'noma nomod nu nobl nowrap ro' "show line numbers in file explorer
+
+"--- unused plugin configs: ---
+"let g:user_emmet_expandabbr_key='<Tab>' "use tab to expand in emmet
+"imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>") "only have tab expand in emmet when it's supposed to 
+
+"show bufferline in statusbar "bufferline
+"let g:bufferline_echo = 0 "bufferline 1 is another option
+"autocmd VimEnter * "bufferline show buffers in status line
+"  \ let &statusline='%{bufferline#refresh_status()}'
+"    \ .bufferline#get_status_string()
+
+"--- unused themes: ---
+"colorscheme torte "torte colorscheme
+
+"--- unused themes configs: ---
+"let g:rehash256 = 1 "molokai theme addon
+"let g:molokai_original = 1 "molokai theme addon
+
