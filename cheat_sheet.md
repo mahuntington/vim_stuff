@@ -1,14 +1,5 @@
 # VIM Cheat Sheet
 
-## Tabs
-
-- `gt` go to next tab
-- `gT` go to next tab
-- `[num]gt` go to tab [num]
-- `:tabnew` open new tab
-- `:tabc` close tab
-- `:tabe` edit file in new tab
-
 ## Split
 
 - `<ctrl-w>s` or `:sp` split with line running horizontally
@@ -22,6 +13,15 @@
 - `:b[num]` use buffer [num]
 - `:bn` next buffer
 - `:[num]bd` unload buffer [num]
+
+## Tabs
+
+- `gt` go to next tab
+- `gT` go to next tab
+- `[num]gt` go to tab [num]
+- `:tabnew` open new tab
+- `:tabc` close tab
+- `:tabe` edit file in new tab
 
 ## Auto Complete
 
