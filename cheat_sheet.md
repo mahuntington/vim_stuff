@@ -35,6 +35,12 @@
 - `<ctrl-f>` page down
 - `<ctrl-b>` page up
 
+## Formatting
+
+- `=` auto indent selection/line
+- `gg=G` auto indent entire buffer
+- `J` join current line with next line
+
 ## Commands
 
 - `:%s/\s\+$//e` trim ending whitespace
