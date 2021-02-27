@@ -10,6 +10,8 @@ Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 "show git changes in file
 Plug 'mhinz/vim-signify'
+"jsx syntax highlighting
+Plug 'maxmellon/vim-jsx-pretty'
 call plug#end()
 
 "-- vim configs: ---
