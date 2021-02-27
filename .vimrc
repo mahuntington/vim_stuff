@@ -46,6 +46,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 
 "show line numbers in nerdtree
 let NERDTreeShowLineNumbers=1
+let NERDTreeShowHidden=1
 
 "-- themes: ---
 colorscheme molokai
