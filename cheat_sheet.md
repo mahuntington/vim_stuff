@@ -46,3 +46,7 @@
 - `:%s/\s\+$//e` trim ending whitespace
 - `:%retab!` convert spaces to tabs
 - `NERDTree` open up nerd tree file explorer
+
+## NERDTree
+
+- `r` refresh tree
