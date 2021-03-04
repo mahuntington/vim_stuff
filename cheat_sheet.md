@@ -41,6 +41,10 @@
 - `gg=G` auto indent entire buffer
 - `J` join current line with next line
 
+## Comments
+
+- `<ctrl-v>` then select block. Then `<shift-i>` to enter insert.  Enter text and hit `Esc`
+
 ## Commands
 
 - `:%s/\s\+$//e` trim ending whitespace
