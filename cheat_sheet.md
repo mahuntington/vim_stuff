@@ -49,7 +49,7 @@
 
 - `<shift-V>` visual-line
 - `<ctrl-v>` visual block
-- `<option-click>` visual block
+- `<option-click>` visual block, highlight from start to click point
 
 ## Commands
 
