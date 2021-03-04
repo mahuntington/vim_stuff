@@ -45,6 +45,12 @@
 
 - `<ctrl-v>` then select block. Then `<shift-i>` to enter insert.  Enter text and hit `Esc`
 
+## Selection
+
+- `<shift-V>` visual-line
+- `<ctrl-v>` visual block
+- `<option-click>` visual block
+
 ## Commands
 
 - `:%s/\s\+$//e` trim ending whitespace
