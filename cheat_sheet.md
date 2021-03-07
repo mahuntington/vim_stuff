@@ -35,6 +35,11 @@
 - `<ctrl-f>` page down
 - `<ctrl-b>` page up
 
+## Editing
+
+- `dw` delete forward to end of word
+- `db` delete backward to beginning of word
+
 ## Formatting
 
 - `=` auto indent selection/line
