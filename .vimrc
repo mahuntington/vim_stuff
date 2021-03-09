@@ -12,6 +12,8 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'mhinz/vim-signify'
 "jsx syntax highlighting
 Plug 'maxmellon/vim-jsx-pretty'
+"nerd commenting
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 "-- vim configs: ---
