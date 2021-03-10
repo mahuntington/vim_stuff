@@ -39,6 +39,8 @@
 
 - `dw` delete forward to end of word
 - `db` delete backward to beginning of word
+- `x` delete current char
+- `X` delete previous char
 
 ## Formatting
 
