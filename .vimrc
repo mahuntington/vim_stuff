@@ -36,6 +36,9 @@ set mouse=a
 "disable wordwrap
 set wrap!
 
+"bash-like file completion
+set wildmode=longest,list
+
 "-- abbreviations: ---
 "log autocomplete
 ab log console.log();<left><left>
