@@ -2,7 +2,7 @@
 
 ## Setup
 
-### Install vim-plug
+Install vim-plug:
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
