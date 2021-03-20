@@ -14,6 +14,8 @@ Plug 'mhinz/vim-signify'
 Plug 'maxmellon/vim-jsx-pretty'
 "nerd commenting
 Plug 'preservim/nerdcommenter'
+"EJS syntax highlighting
+Plug 'nikvdp/ejs-syntax'
 call plug#end()
 
 "-- vim configs: ---
