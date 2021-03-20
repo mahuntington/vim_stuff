@@ -16,6 +16,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'preservim/nerdcommenter'
 "EJS syntax highlighting
 Plug 'nikvdp/ejs-syntax'
+"Molokai Color Scheme
+Plug 'tomasr/molokai'
 call plug#end()
 
 "-- vim configs: ---
