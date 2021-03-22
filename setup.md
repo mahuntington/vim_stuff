@@ -1,21 +1,28 @@
 # Setup
 
-## Install Vim Plug
+Install vim-plug:
 
 ```
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 ```
 
-## .vimrc
+clone this repo and
 
-Update `~/.vimrc` to [this](.vimrc) and close vim
+```
+ln -s /path/to/cloned/repo/.vimrc ~/.vimrc
+```
 
-## Themes
+then open vim and
 
-Move [Molokai Theme](molokai.vim) into `~/.vim/colors/` (create `colors` dir if necessary)
+```
+:PlugInstall
+```
 
-or: `touch ~/.vim/colors/molokai.vim`, copy [Molokai Theme](molokai.vim) raw code, `pbpaste > ~/.vim/colors/molokai.vim`
+then
 
-## Install Plugins
+```
+source ~/.vimrc
+```
 
-open vim and run `:PlugInstall`
+or reopen vim
