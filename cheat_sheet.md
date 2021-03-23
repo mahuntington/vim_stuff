@@ -43,6 +43,10 @@
 - `X` delete previous char
 - `:%s/wordtochange/changedvalue/gc` search/replace
 
+## Copying
+
+- `"+y` copys visual selection to clipboard
+
 ## Formatting
 
 - `=` auto indent selection/line
@@ -56,7 +60,8 @@
 
 ## Selection
 
-- `<shift-V>` visual-line
+- `v` visual-line
+- `V` visual-line
 - `<ctrl-v>` visual block
 - `<option-click>` visual block, highlight from start to click point
 
