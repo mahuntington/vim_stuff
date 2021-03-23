@@ -51,7 +51,7 @@
 
 ## Comments
 
-- `\cc` - Nerdcommentor
+- `\c<space>` - Nerdcommentor
 - `<ctrl-v>` then select block. Then `<shift-i>` to enter insert.  Enter text and hit `Esc`
 
 ## Selection
