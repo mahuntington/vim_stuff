@@ -60,8 +60,8 @@
 
 ## Selection
 
-- `v` visual-line
-- `V` visual-line
+- `v` visual character
+- `V` visual line
 - `<ctrl-v>` visual block
 - `<option-click>` visual block, highlight from start to click point
 
