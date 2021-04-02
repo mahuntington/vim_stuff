@@ -10,15 +10,15 @@
 
 ## Buffers
 
-- `:b[num]` use buffer [num]
+- `:b[num]` use buffer `[num]`
 - `:bn` next buffer
-- `:[num]bd` unload buffer [num]
+- `:[num]bd` unload buffer `[num]`
 
 ## Tabs
 
 - `gt` go to next tab
 - `gT` go to next tab
-- `[num]gt` go to tab [num]
+- `[num]gt` go to tab `[num]`
 - `:tabnew` open new tab
 - `:tabc` close tab
 - `:tabe` edit file in new tab
@@ -46,6 +46,10 @@
 ## Copying
 
 - `"+y` copys visual selection to clipboard
+- `yy` copys entire line
+- `[num]yy` yank `[num]` lines
+- `yb` yank previous word
+- `yw` yank next word
 
 ## Formatting
 
