@@ -39,6 +39,7 @@
 
 - `dw` delete forward to end of word
 - `db` delete backward to beginning of word
+- `dvb` delete backward to beginning of word including current char
 - `x` delete current char
 - `X` delete previous char
 - `:%s/wordtochange/changedvalue/gc` search/replace
