@@ -34,6 +34,12 @@
 
 - `<ctrl-f>` page down
 - `<ctrl-b>` page up
+- `<ctrl-d>` half page down
+- `<ctrl-u>` half page up
+- `H` move to top of screen
+- `M` move to middle of screen
+- `L` move to bottom of screen
+
 
 ## Editing
 
