@@ -59,6 +59,7 @@ let g:airline#extensions#tabline#buffer_nr_show = 1
 let NERDTreeShowLineNumbers=1
 "show hidden files in nerdtree
 let NERDTreeShowHidden=1
+let g:NERDTreeIgnore = ['^\.DS_Store$']
 
 "-- themes: ---
 colorscheme molokai
