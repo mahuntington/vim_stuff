@@ -2,9 +2,11 @@
 
 ## Split
 
-- `<ctrl-w>s` or `:sp` split with line running horizontally
-- `<ctrl-w>v` or `:vsp` split with line running verticall
+- `<ctrl-w>s` or `:sp` or `:split` split with line running horizontally
+- `<ctrl-w>v` or `:vsp` or `:vsplit` split with line running verticall
 - `<ctrl-w>arrow` move to pane
+- `<ctrl-w>c` close split
+- `<ctrl-w>o` close all other splits
 - `:q` close tab
 - `:tab split` move split to new tab
 
