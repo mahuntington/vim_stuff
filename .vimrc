@@ -40,6 +40,9 @@ set mouse=a
 "disable wordwrap
 set wrap!
 
+"highligh search
+set hlsearch
+
 "bash-like file completion
 set wildmode=longest,list
 
