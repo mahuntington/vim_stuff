@@ -52,7 +52,16 @@
 - `dvb` delete backward to beginning of word including current char
 - `x` delete current char
 - `X` delete previous char
+
+
+## Search
+
+- `/` find
+- `n` find next match
+- `N` find previous match
+- `:noh` stop search highlight
 - `:%s/wordtochange/changedvalue/gc` search/replace
+
 
 ## Copying
 
