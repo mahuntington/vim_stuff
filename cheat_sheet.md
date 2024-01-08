@@ -34,13 +34,23 @@
 
 ## Navigation
 
+### Cursor
+
+- `H` move to top of screen
+- `M` move to middle of screen
+- `L` move to bottom of screen
+
+### Screen
+
 - `<ctrl-f>` page down
 - `<ctrl-b>` page up
 - `<ctrl-d>` half page down
 - `<ctrl-u>` half page up
-- `H` move to top of screen
-- `M` move to middle of screen
-- `L` move to bottom of screen
+- `<ctrl + y>` to move the screen up one line.
+- `<ctrl + e>` to move the screen down one line.
+- `zz` to move the current line I'm on to the center of the screen.
+- `zt` to move the current line I'm on to the top of the screen.
+- `zb` to move the current line I'm on to the bottom of the screen.
 
 
 ## Editing
