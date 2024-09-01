@@ -105,3 +105,17 @@ colorscheme molokai
 "--- unused themes configs: ---
 "let g:rehash256 = 1 "molokai theme addon
 "let g:molokai_original = 1 "molokai theme addon
+
+"--- remap hjkl to jkl;
+:nnoremap j h
+:nnoremap k j
+:nnoremap l k
+:nnoremap ; l
+:nnoremap h ;
+
+:vnoremap j h
+:vnoremap k j
+:vnoremap l k
+:vnoremap ; l
+:vnoremap h ;
+
