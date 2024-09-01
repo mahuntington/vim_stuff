@@ -36,6 +36,9 @@
 
 ### Cursor
 
+- `hjkl` - move
+- `w` - move to next word
+- `b` - mve to previous word
 - `H` move to top of screen
 - `M` move to middle of screen
 - `L` move to bottom of screen
@@ -66,6 +69,8 @@
 
 ## Search
 
+- `:vim a *.*` - search for 'a' in all files in dir
+- `:copen` / `cclose` open quickfix list to view matches of `:vim`
 - `/` find
 - `n` find next match
 - `N` find previous match
