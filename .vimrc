@@ -107,15 +107,13 @@ colorscheme molokai
 "let g:molokai_original = 1 "molokai theme addon
 
 "--- remap hjkl to jkl;
-:nnoremap j h
-:nnoremap k j
-:nnoremap l k
-:nnoremap ; l
-:nnoremap h ;
+:noremap j h
+:noremap k j
+:noremap l k
+:noremap ; l
+:noremap h ;
 
-:vnoremap j h
-:vnoremap k j
-:vnoremap l k
-:vnoremap ; l
-:vnoremap h ;
-
+:noremap <C-w>j <C-w><left>
+:noremap <C-w>k <C-w><down>
+:noremap <C-w>l <C-w><up>
+:noremap <C-w>; <C-w><right>
