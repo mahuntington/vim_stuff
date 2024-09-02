@@ -18,6 +18,8 @@ Plug 'preservim/nerdcommenter'
 Plug 'nikvdp/ejs-syntax'
 "Molokai Color Scheme
 Plug 'tomasr/molokai'
+"change current match color when surching
+Plug 'https://github.com/adamheins/vim-highlight-match-under-cursor'
 call plug#end()
 
 "-- vim configs: ---
