@@ -16,8 +16,8 @@ Plug 'maxmellon/vim-jsx-pretty'
 Plug 'preservim/nerdcommenter'
 "EJS syntax highlighting
 Plug 'nikvdp/ejs-syntax'
-"Molokai Color Scheme
-Plug 'tomasr/molokai'
+"gruvbox Color Scheme
+Plug 'morhetz/gruvbox'
 "change current match color when surching
 Plug 'https://github.com/adamheins/vim-highlight-match-under-cursor'
 call plug#end()
@@ -67,7 +67,8 @@ let NERDTreeShowHidden=1
 let g:NERDTreeIgnore = ['^\.DS_Store$']
 
 "-- themes: ---
-colorscheme molokai
+set background=dark
+colorscheme gruvbox
 
 "---------------
 "    unused:
